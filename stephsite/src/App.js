@@ -11,11 +11,11 @@ import './fonts/IndieFlower-Regular.ttf'
 
 
 
-
 function App() {
   return (
     <div className="App">
-<h1 className="text-3xl font-bold underline">Hi!</h1>    
+
+
 <BrowserRouter>
 <Navigation/>
 <Routes>
@@ -25,6 +25,7 @@ function App() {
 <Route path="/contact" element={<Contact/>} />
 </Routes>
 </BrowserRouter>
+
 </div>
 
 

@@ -2,16 +2,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,254,253,1) 14%, rgba(129,249,233,1) 61%, rgba(0,255,158,1) 89%, rgba(0,255,158,1) 96%, rgba(0,255,158,1) 99%);
-    padding-bottom:15%;
-    padding-left:10%;
-    padding-right:10%;
+    height:100vh;
 
 }
 
 h2 {
-    background-image: url('../images/botanicals.jpg');
+    background-image:    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/botanicals.jpg');
     background-repeat: repeat;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -25,3 +22,22 @@ h2 {
         font-weight: 800;
         background-size: 200px;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:5rem;
+}
+
+.aboutdot {
+    height: 800px;
+    width: 800px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top:20px;
+    background-image:url(../images/sheiseprofile.jpeg);
+    background-repeat:none;
+    background-size: contain;
+  }
