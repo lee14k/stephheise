@@ -5,6 +5,9 @@ import Portfolio from './components/portfolio';
 import About from './components/about';
 import Contact from './components/contact';
 import Home from './components/home';
+import './fonts/IndieFlower-Regular.ttf'
+
+
 
 
 

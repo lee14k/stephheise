@@ -1,0 +1,27 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,254,253,1) 14%, rgba(129,249,233,1) 61%, rgba(0,255,158,1) 89%, rgba(0,255,158,1) 96%, rgba(0,255,158,1) 99%);
+    padding-bottom:15%;
+    padding-left:10%;
+    padding-right:10%;
+
+}
+
+h2 {
+    background-image: url('../images/botanicals.jpg');
+    background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 200px;
+        font-size: 22rem;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Steelfish Rg', 'helvetica neue',
+                    helvetica, arial, sans-serif;
+        font-weight: 800;
+        background-size: 200px;
+}
