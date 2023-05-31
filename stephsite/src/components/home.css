@@ -5,6 +5,7 @@
     border-radius: 50%;
     display: inline-block;
     margin-top:20px;
+    z-index:10;
   }
 
   .home {

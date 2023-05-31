@@ -4,7 +4,24 @@
   font-weight:bold;
 }
 
-body {
+.App {
   font-family:"Regular";
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.App::before {
+  content: "";
   background-image: url('./images/botanicals.jpg');
+  background-size:100vh;
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
 }

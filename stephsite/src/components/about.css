@@ -40,4 +40,5 @@ ul {
     background-image:url(../images/sheiseprofile.jpeg);
     background-repeat:none;
     background-size: contain;
+    z-index:10;
   }
